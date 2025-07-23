@@ -1,0 +1,48 @@
+Here’s a concise .gitignore template tailored for PyTorch projects. It includes common patterns to ignore temporary files, datasets, checkpoints, and other unnecessary files:
+
+Copy the code
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# Virtual environment
+env/
+venv/
+*.env
+
+# PyTorch-specific files
+*.pt
+*.pth
+*.ckpt
+
+# Dataset and large files
+data/
+datasets/
+*.h5
+*.npz
+
+# Logs and debug files
+logs/
+*.log
+*.out
+*.err
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# IDE-specific files
+.vscode/
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
